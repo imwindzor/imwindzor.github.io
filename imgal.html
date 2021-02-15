@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gallery | Outplayed</title>
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+	<style>
+		* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    :root {
+      font-size: calc(0.5vw + 1vh + 0.5vmin);
+    }
+    body {
+      font: 100 50%/1.5 'Roboto', sans-serif;
+    }
+    .intro {
+      position: relative;
+      margin: 2em;
+      padding: 0.2em 0.6em;
+      color: #ffff;
+      font-size: 2em;
+      max-width: 26em;
+    }
+    .intro h1 {
+      margin-bottom: 0.5em;
+      line-height: 1;
+      font-weight: 200;
+    }
+    .intro p { 
+      font-size: 20px;
+      color: white;
+      font-weight: 500; 
+    }
+    span a { 
+      text-decoration: none;
+      color: white;
+    }
+    span a:hover { 
+      color: red; 
+    }
+    .button {
+      background-color: black; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 25px;
+      margin: 4px 2px;
+      cursor: pointer;
+      font-family: 'Titillium Web';
+      border-radius: 20px;
+      position: absolute;
+      top: 60%;
+      left: 250%;
+
+
+    }
+    .butones {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    #CrossFade {
+      background: #fff;
+      display: flex;
+      align-items: flex-end;
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+    }
+    #CrossFade img {
+      position: absolute;
+      min-width: 100%;
+      min-height: 100%;
+      height: auto;
+      background: #000;
+      backface-visibility: hidden;
+      opacity: 0;
+      transform: scale(1.4) rotate(12deg);
+      animation: CrossFade 45s infinite;
+    }
+    /*fading of images here*/
+    #CrossFade img:nth-child(9) {
+     animation-delay: 4s;
+   }
+    #CrossFade img:nth-child(8) {
+      animation-delay: 8s;
+    }
+    #CrossFade img:nth-child(7) {
+      animation-delay: 12s;
+    }
+    #CrossFade img:nth-child(6) {
+      animation-delay: 16s;
+    }
+    #CrossFade img:nth-child(4) {
+      animation-delay: 20s;
+    }
+    #CrossFade img:nth-child(3) {
+      animation-delay: 24s;
+    }
+    #CrossFade img:nth-child(2) {
+      animation-delay: 28s;
+    }
+    #CrossFade img:nth-child(1) {
+     animation-delay: 35s;
+   }
+   @keyframes CrossFade {
+    25% {
+      opacity: 1;
+      transform: scale(1) rotate(0);
+    }
+    40% {
+      opacity: 0;
+    }
+  }
+</style>
+</head>
+<body>
+  <div id="CrossFade">
+    <img src="img/slide/coc.jpg" alt="img"/><!--1-->
+    <img src="img/slide/fnight.jpg" alt="img"/>
+    <img src="img/slide/aov.jpg" alt="img"/>
+    <img src="img/slide/cod.jpg" alt="img"/>
+    <img src="img/slide/a9.jpg" alt="img"/>
+    <img src="img/slide/nba.jpg" alt="img"/>
+    <img src="img/slide/gc.jpg" alt="img"/>
+    <img src="img/slide/ml.png" alt="img"/>
+    <img src="img/slide/pubg.jpg" alt="img"/>
+    <div class="intro">
+      <a href="index.html"><button class="button butones">HOME</button> </a>
+      <h1>These are just some of the best and trending mobile games worldwide.</h1>
+      <p>To find out which one suits your interest, go see their<span><a href="reviews.html"> ratings here!</span></p></a>
+      </div>
+    </div>
+  </body>
+  </html>

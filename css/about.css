@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'earth_orbiterregular';
+    src: url('fonts/earthorbiter-webfont.woff2') format('woff2'),
+         url('fonts/earthorbiter-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body  {
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;	
+}
+header { 
+	background-color: black;
+}	
+.nav {
+	font-family: 'Titillium Web';
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	margin: 0;
+	}
+
+.nav * {
+	box-sizing: border-box;
+	transition: all .35s ease;
+	
+}
+
+.nav li {
+	display: inline-block;
+	list-style: outside none none;
+	margin: .5em 1em;
+	margin-top: 3%;
+	padding: 3px;
+	padding-bottom: 15px;
+}
+
+.nav a {
+	padding: .5em .8em;
+	color: rgba(255,255,255,.7);
+	position: relative;
+	text-decoration: none;
+	font-size: 17px;
+
+}
+
+.nav a::before,
+.nav a::after {
+	content: '';
+	height: 14px;
+	width: 14px;
+	position: absolute;
+	transition: all .35s ease;
+	opacity: 0;
+}
+
+.nav a::before {
+	content: '';
+	right: 0;
+	top: 0;
+	border-top: 3px solid gray;
+	border-right: 3px solid white;
+	transform: translate(-100%, 50%);
+}
+
+.nav a:after {
+	content: '';
+	left: 0;
+	bottom: 0;
+	border-bottom: 3px solid gray;
+	border-left: 3px solid white;
+	transform: translate(100%, -50%)
+}
+
+.nav a:hover:before,
+.nav a:hover:after{
+	transform: translate(0,0);
+	opacity: 1;
+}
+
+.nav a:hover {
+	color: #B22222;
+}
+.nav a.active {
+	color: #B22222;
+}
+.logo { 
+	position: absolute;
+	width: 16%;
+	margin-top: 1.5%;
+	margin-bottom: 1%;
+	margin-left: 5%;
+}
+
+/* end of the main imgs */
+
+section { 
+	text-align: justify;
+	line-height: 2;
+	font-size: 17px;
+	padding: 10px;
+	margin-right: 47%;
+	margin-left: 2%;
+ }
+
+div .abt_pic {
+	position: absolute;
+	width: 40%;
+	margin-top: 50px;
+	margin-right: 10%;
+	margin-left: 55%;
+	padding: 15px;
+	
+}

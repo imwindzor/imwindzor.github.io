@@ -1,0 +1,332 @@
+@font-face {
+	font-family: 'manti_sans_demoregular';
+	src: url('fonts/manti_sans_regular_demo-webfont.woff2') format('woff2'),
+	url('fonts/manti_sans_regular_demo-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'earth_orbiterregular';
+    src: url('fonts/earthorbiter-webfont.woff2') format('woff2'),
+         url('fonts/earthorbiter-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* { 
+	box-sizing: border-box;
+}
+
+body  {
+	background-color: #2f215c;
+
+	font-family: 'Montserrat', sans-serif;	
+}
+header { 
+	background-color: #2f215c; /* purple */
+
+}	
+.myNav {
+	font-family: 'Titillium Web';
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+}
+
+.myNav * {
+	box-sizing: border-box;
+	transition: all .35s ease;
+	
+}
+
+.myNav li {
+	display: inline-block;
+	list-style: outside none none;
+	margin: .5em 1em;
+	padding: 0;
+	margin-top: 3%;
+}
+
+.myNav a {
+	padding: .5em .8em;
+	color: white;
+	position: relative;
+	text-decoration: none;
+	font-size: 17px;
+
+}
+
+.myNav a::before,
+.myNav a::after {
+	content: '';
+	height: 14px;
+	width: 14px;
+	position: absolute;
+	transition: all .35s ease;
+	opacity: 0;
+}
+
+.myNav a::before {
+	content: '';
+	right: 0;
+	top: 0;
+	border-top: 3px solid gray;
+	border-right: 3px solid white;
+	transform: translate(-100%, 50%);
+}
+
+.myNav a:after {
+	content: '';
+	left: 0;
+	bottom: 0;
+	border-bottom: 3px solid gray;
+	border-left: 3px solid white;
+	transform: translate(100%, -50%)
+}
+
+.myNav a:hover:before,
+.myNav a:hover:after{
+	transform: translate(0,0);
+	opacity: 1;
+}
+
+.myNav a:hover {
+	color: #f46036;
+}
+.myNav a.active {
+	color: #f46036;
+}
+
+.logo { 
+	position: absolute;
+	width: 16%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 5%;
+
+}
+
+/* end of the main imgs */
+
+.intro_tag h1{ 
+	font-family: 'manti_sans_demoregular';
+	font-size: 50px;
+	font-weight: normal;
+	font-style: normal;
+	color: white;
+}
+.intro_tag h2, strong { 
+	font-family: 'Titillium Web';
+	font-size: 20px;
+	font-weight: normal;
+	font-style: normal;
+	color: white;
+}
+
+/* Center website */
+.main_gal{
+	max-width: 80%;
+	margin: auto;
+	margin-top: 40px;
+
+}
+
+h1 {
+	font-size: 50px;
+	word-break: break-all;
+}
+
+.row {
+	margin: 8px -40px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+	padding: 7px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+	float: left;
+	width: 25%;
+	position: relative;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Content */
+.content {
+	background-color: white;
+	padding: 20px;
+	border: 2px solid #6b6e70;
+}
+.content p { 
+	line-height: 1.4; 
+	text-align: justify;
+
+}
+.footer {
+	position: absolute;
+	width: 99%;
+	background-color: rgba(169,169,169,0.9);
+	color: black;
+}
+
+.footer h3, p { 
+	margin-left: 2%; 
+}
+
+.flashy img:hover {
+	opacity: 1;
+	animation: flash 1.5s;
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+/* for images to be aligned*/
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+	.column {
+		width: 50%;
+	}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}
+
+
+.footer-distributed {
+  background: white;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center
+ {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  width: 40%;
+  margin-left: 5%;
+
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+  color: black;
+  font-family: 'earth_orbiterregular';
+  margin: 0;
+  font-size: 40px;
+}
+
+.footer-distributed h3 span {
+  color: maroon;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+  color: black;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: black;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color: lightseagreen;
+  text-decoration: none;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight: 300;
+  font-size: 20px;
+  left: 0;
+  color: maroon;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+

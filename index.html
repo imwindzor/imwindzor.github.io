@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>GadgetZone | Come and Visit</title>
+	<title>GadgetZone</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
@@ -15,6 +15,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+	<!--External CSS-->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
@@ -62,69 +63,387 @@
 		<!-- MAIN (Center website) -->
 		<div class="intro_tag">
 			<h1>Editor's Choice</h1>
+			<strong>Smartphones, Accessories and Others. Only here on GadgetZone</strong>
 			<br />
-			<strong>Play games like never before...</strong>
+			<br />
 		</div>
 
-		<!-- Portfolio Gallery Grid -->
-		<div class="row">
-			<div class="column">
-				<div class="content flashy">
-					<img src="img/tbox/coc.jpg" alt="Mountains" style="width:100%">
-					<h3>Clash Of Clans</h3>
-					<p>Clash of Clans is a freemium mobile strategy video game developed and published by Finnish game developer Supercell. </p>
+		<div class="container-fluid px-0">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed">
+				<div class="container-fluid d-flex"> <a class="navbar-brand" href="index.html">GadgetZone</a>
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item" role="presentation"> <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Smartphones</a> </li>
+						<li class="nav-item" role="presentation"> <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Laptops</a> </li>
+						<li class="nav-item" role="presentation"> <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Accessories</a> </li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="container-fluid mt-2 mb-5">
+			<div class="products">
+				<div class="tab-content" id="myTabContent">
+					<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+						<!-- <div class="d-flex justify-content-between p-3 bg-white mb-3 align-items-center"> <span class="font-weight-bold text-uppercase">Luxury Couch</span>
+							<div> <img src="https://img.icons8.com/windows/100/000000/list.png" width="30" /> <img src="https://img.icons8.com/ios-filled/100/000000/squared-menu.png" width="25" /> </div>
+						</div> -->
+						<div class="row g-3">
+							<div class="col-md-4">
+								<div class="card"> <img src="img/phones/on.png" class="card-img-top">
+									<div class="card-body">
+										<div class="d-flex justify-content-between"> <span class="font-weight-bold">OnePlus 7</span> <span class="font-weight-bold">$1,250.00</span> </div>
+										<p class="card-text mb-1 mt-1">The OnePlus 7 is the successor of the OnePlus 6T and was launched alongside the OnePlus 7 Pro.</p>
+										<br />
+										<div class="d-flex align-items-center flex-row"> 
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span> 
+											<span class="guarantee">  3 stars review</span> 
+										</div>
+									</div>
+									<hr>
+									<div class="card-body">
+										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card"> <img src="img/phones/xiaomi.png" class="card-img-top">
+									<div class="card-body">
+										<div class="d-flex justify-content-between"> <span class="font-weight-bold">Xiaomi Mi 11 Ultra</span> <span class="font-weight-bold">$900.00</span> </div>
+										<p class="card-text mb-1 mt-1">Mi 11 Ultra is expected to be the top-tier variant in the Mi 11 series showing its specifications.</p>
+										<br />
+										<div class="d-flex align-items-center flex-row"> 
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span> 
+											<span class="guarantee">  5 stars review</span> 
+										</div>
+									</div>
+									<hr>
+									<div class="card-body">
+										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card"> <img src="img/phones/sony.png" class="card-img-top">
+									<div class="card-body">
+										<div class="d-flex justify-content-between"> <span class="font-weight-bold">Sony Xperia 1 II</span> <span class="font-weight-bold">$1,000.00</span> </div>
+										<p class="card-text mb-1 mt-1">Sony Xperia 1 II based on Android 10 and packs 256GB of inbuilt storage that can be expanded more.</p>
+										<br />
+										<div class="d-flex align-items-center flex-row"> 
+
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star"></span> 
+											<span class="guarantee">  4 stars review</span> 
+
+										</div>
+									</div>
+									<hr>
+									<div class="card-body">
+										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card"> <img src="img/phones/poco.png" class="card-img-top">
+									<div class="card-body">
+										<div class="d-flex justify-content-between"> <span class="font-weight-bold">Xiaomi Poco M3</span> <span class="font-weight-bold">$650.00</span> </div>
+										<p class="card-text mb-1 mt-1">Poco M3 went on its first sale on February 9 and the company said that it sold over 150,000 units.</p>
+										<br />
+										<div class="d-flex align-items-center flex-row"> 
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span> 
+											<span class="guarantee">  3 stars review</span> 
+										</div>
+									</div>
+									<hr>
+									<div class="card-body">
+										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card"> <img src="img/phones/iphone12.png" class="card-img-top">
+									<div class="card-body">
+										<div class="d-flex justify-content-between"> <span class="font-weight-bold">Apple iPhone 12 Pro Max</span> <span class="font-weight-bold">$1,250.00</span> </div>
+										<p class="card-text mb-1 mt-1">The iPhone 12 Pro Max display has rounded corners that follow a beautiful curved design. </p>
+										<br />
+										<div class="d-flex align-items-center flex-row"> 
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span> 
+											<span class="guarantee">  3 stars review</span> 
+										</div>
+									</div>
+									<hr>
+									<div class="card-body">
+										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card"> <img src="img/phones/one8.png" class="card-img-top">
+									<div class="card-body">
+										<div class="d-flex justify-content-between"> <span class="font-weight-bold">OnePlus 8 Pro</span> <span class="font-weight-bold">$1,150.00</span> </div>
+										<p class="card-text mb-1 mt-1">With over 280 software optimizations, the OnePlus 8 Pro runs seamlessly at 120 Hz.</p>
+										<br />
+										<div class="d-flex align-items-center flex-row"> 
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star"></span> 
+											<span class="guarantee">  4 stars review</span> 
+										</div>
+									</div>
+									<hr>
+									<div class="card-body">
+										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+						<!--Laptops-->
+						<!-- <div class="d-flex justify-content-between p-3 bg-white mb-3 align-items-center"> <span class="font-weight-bold text-uppercase">Luxury Chairs</span>
+							<div> <img src="https://img.icons8.com/windows/100/000000/list.png" width="30" /> <img src="https://img.icons8.com/ios-filled/100/000000/squared-menu.png" width="25" /> </div>
+						</div> -->
+						<div class="row g-3">
+							<div class="col-md-4">
+								<div class="card"> <img src="img/laptops/macbookair.png" class="card-img-top">
+									<div class="card-body">
+										<div class="d-flex justify-content-between"> <span class="font-weight-bold">Macbook Air</span> <span class="font-weight-bold">$1,000.00</span> </div>
+										<p class="card-text mb-1 mt-1">MacBook Air is completely transformed by the power of Apple-designed M1 chip. Up to 3.5x faster.</p>
+										<br />
+										<div class="d-flex align-items-center flex-row"><span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star"></span> 
+											<span class="guarantee">  4 stars review</span></div>
+									</div>
+									<hr>
+									<div class="card-body">
+										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card"> <img src="img/laptops/hp.png" class="card-img-top">
+									<div class="card-body">
+										<div class="d-flex justify-content-between"> <span class="font-weight-bold">HP SPECTRE X360 14</span> <span class="font-weight-bold">$1,200.00</span> </div>
+										<p class="card-text mb-1 mt-1">Spectre x360 14 isn’t just pretty to look at: it’s also a pleasure to use as a daily work driver.</p>
+										<br />
+										<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star"></span> 
+											<span class="fa fa-star"></span>
+											<span class="guarantee">  3 stars review</span></div>
+									</div>
+									<hr>
+									<div class="card-body">
+										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card"> <img src="img/laptops/hp-envy.png" class="card-img-top">
+									<div class="card-body">
+										<div class="d-flex justify-content-between"> <span class="font-weight-bold">HP ENVY X360 (2020)</span> <span class="font-weight-bold">$650</span> </div>
+										<p class="card-text mb-1 mt-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<br />
+										<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star"></span> 
+											<span class="fa fa-star"></span>
+											<span class="guarantee">  3 stars review</span></div>
+									</div>
+									<hr>
+									<div class="card-body">
+										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card"> <img src="img/laptops/macbookpro.png" class="card-img-top">
+									<div class="card-body">
+										<div class="d-flex justify-content-between"> <span class="font-weight-bold">MACBOOK PRO 13 (2020)</span> <span class="font-weight-bold">$1,500.00</span> </div>
+										<p class="card-text mb-1 mt-1">The Macbook Pro 13 is more powerful than the Air but more affordable than the 16-inch Pro.</p>
+										<br />
+										<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span> 
+											<span class="fa fa-star "></span>
+											<span class="guarantee">  4 stars review</span></div>
+									</div>
+									<hr>
+									<div class="card-body">
+										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card"> <img src="img/laptops/dellxps.png" class="card-img-top">
+									<div class="card-body">
+										<div class="d-flex justify-content-between"> <span class="font-weight-bold">DELL XPS 13 2-IN-1</span> <span class="font-weight-bold">$1,100.00</span> </div>
+										<p class="card-text mb-1 mt-1">If you’re looking for a convertible laptop that does just about everything right, we recommend Dell’s latest XPS 13 2-in-1.</p>
+										<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span> 
+											<span class="fa fa-star "></span>
+											<span class="guarantee">  4 stars review</span></div> 
+									</div>
+									<hr>
+									<div class="card-body">
+										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card"> <img src="img/laptops/asusrog.png" class="card-img-top">
+									<div class="card-body">
+										<div class="d-flex justify-content-between"> <span class="font-weight-bold">ASUS ROG ZEPHYRUS G14</span> <span class="font-weight-bold">$1,350.00</span> </div>
+										<p class="card-text mb-1 mt-1">The Zephyrus G14 is an astonishingly powerful gaming laptop for a low price.</p>
+										<br />
+										<div class="d-flex align-items-center flex-row"><span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span> 
+											<span class="fa fa-star checked"></span>
+											<span class="guarantee">  5 stars review</span></div> 
+									</div>
+									<hr>
+									<div class="card-body">
+										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+						<!--Accessories-->
+						<!-- <div class="d-flex justify-content-between p-3 bg-white mb-3 align-items-center"> <span class="font-weight-bold text-uppercase">Luxury Dining</span>
+							<div> <img src="https://img.icons8.com/windows/100/000000/list.png" width="30" /> <img src="https://img.icons8.com/ios-filled/100/000000/squared-menu.png" width="25" /> </div>
+						</div> -->
+						<div class="row g-3">
+							<div class="col-md-4">
+								<div class="card"> <img src="img/acces/spigen.png" class="card-img-top">
+									<div class="card-body">
+										<div class="d-flex justify-content-between"> <span class="font-weight-bold">OnePlus 8Pro Case Hybrid</span> <span class="font-weight-bold">₱1,200.00</span> </div>
+										<p class="card-text mb-1 mt-1">OnePlus 8 Pro Ultra Hybrid is ideal for minimalistic enthusiasts seeking a clear case with added protection.</p>
+										<br />
+										<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star "></span> 
+											<span class="fa fa-star "></span>
+											<span class="guarantee">  3 stars review</span></div> 
+									</div>
+									<hr>
+									<div class="card-body">
+										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card"> <img src="img/acces/beatss.png" class="card-img-top">
+									<div class="card-body">
+										<div class="d-flex justify-content-between"> <span class="font-weight-bold">Beats by Dr. Dre</span> <span class="font-weight-bold">₱1,100.00</span> </div>
+										<p class="card-text mb-1 mt-1">Beats by Dr. Dre - UrBeats 3 Earphones with 3.5mm Plug Comfort Fit Wired Earbuds Sound.</p>
+										<br />
+										<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span> 
+											<span class="fa fa-star "></span>
+											<span class="guarantee">  3 stars review</span></div> 
+									</div>
+									<hr>
+									<div class="card-body">
+										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card"> <img src="img/acces/laptopstand.png" class="card-img-top">
+									<div class="card-body">
+										<div class="d-flex justify-content-between"> <span class="font-weight-bold">Foldable Laptop Desk</span> <span class="font-weight-bold">₱580.00</span> </div>
+										<p class="card-text mb-1 mt-1">Laptop Stand for MacBook Pro Notebook Stand Foldable Laptop Desk Aluminium Alloy.</p>
+										<br />
+										<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span> 
+											<span class="fa fa-star "></span>
+											<span class="guarantee">  3 stars review</span></div> 
+									</div>
+									<hr>
+									<div class="card-body">
+										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card"> <img src="https://i.imgur.com/uh0knIW.jpg" class="card-img-top">
+									<div class="card-body">
+										<div class="d-flex justify-content-between"> <span class="font-weight-bold">Dinning table set-10</span> <span class="font-weight-bold">$3,500</span> </div>
+										<p class="card-text mb-1 mt-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<div class="d-flex align-items-center flex-row"> <img src="https://i.imgur.com/e9VnSng.png" width="20"> <span class="guarantee">6 Years Guarantee</span> </div>
+									</div>
+									<hr>
+									<div class="card-body">
+										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card"> <img src="https://i.imgur.com/rdYgwhr.jpg" class="card-img-top">
+									<div class="card-body">
+										<div class="d-flex justify-content-between"> <span class="font-weight-bold">Table chair set-5</span> <span class="font-weight-bold">$250</span> </div>
+										<p class="card-text mb-1 mt-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<div class="d-flex align-items-center flex-row"> <img src="https://i.imgur.com/e9VnSng.png" width="20"> <span class="guarantee">8 Years Guarantee</span> </div>
+									</div>
+									<hr>
+									<div class="card-body">
+										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card"> <img src="https://i.imgur.com/x6hhqGn.jpg" class="card-img-top">
+									<div class="card-body">
+										<div class="d-flex justify-content-between"> <span class="font-weight-bold">Luxury Dinning set-7</span> <span class="font-weight-bold">$750</span> </div>
+										<p class="card-text mb-1 mt-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+										<div class="d-flex align-items-center flex-row"> <img src="https://i.imgur.com/e9VnSng.png" width="20"> <span class="guarantee">6 Years Guarantee</span> </div>
+									</div>
+									<hr>
+									<div class="card-body">
+										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="column">
-				<div class="content flashy">
-					<img src="img/tbox/cod.jpg" alt="Lights" style="width:100%">
-					<h3>Call of Duty Mobile</h3>
-					<p>Call of Duty: Mobile is a free-to-play first-person shooter developed by TiMi Studios and published by Activision for Android and iOS. </p>
-				</div>
-			</div>
-			<div class="column">
-				<div class="content flashy">
-					<img src="img/tbox/nba.jpg" alt="Nature" style="width:100%">
-					<h3>NBA 2K Series</h3>
-					<p>NBA 2K is a series of basketball sports simulation video games developed and released annually since 1999. The NBA 2K series has also been used in eSports.</p>
-				</div>
-			</div>
-			<div class="column">
-				<div class="content flashy">
-					<img src="img/tbox/a9.jpg" alt="Mountains" style="width:100%">
-					<h3>Asphalt 9: Legends</h3>
-					<p>Asphalt 9: Legends is a racing video game developed by Gameloft Barcelona and published by Gameloft and was released on July 25, 2018.</p>
-				</div>
-			</div>
-			<div class="column">
-				<div class="content flashy">
-					<img src="img/tbox/ml.jpg" alt="Mountains" style="width:100%">
-					<h3>Mobile Legends</h3>
-					<p>Mobile Legends: Bang Bang  is a multiplayer online battle arena (MOBA) mobile game developed and published by Shanghai Moonton Technology. The game was released on 2016. </p>
-				</div>
-			</div>
-			<div class="column">
-				<div class="content flashy">
-					<img src="img/tbox/aov.jpg" alt="Mountains" style="width:100%">
-					<h3>Arena of Valor</h3>
-					<p>Arena of Valor is a  third-person, multiplayer online battle arena (MOBA) style game for mobile. TAs of September 2018, the game has grossed over $140 million outside China.</p>
-				</div>
-			</div>
-			<div class="column">
-				<div class="content flashy">
-					<img src="img/tbox/pubg.jpg" alt="Mountains" style="width:100%">
-					<h3>PUBG Mobile</h3>
-					<p>In the game, up to one hundred players parachute onto an island and scavenge for weapons and equipment to kill others while avoiding getting killed themselves. </p>
-				</div>
-			</div>
-			<div class="column">
-				<div class="content flashy">
-					<img src="img/tbox/fortnite.jpg" alt="Mountains" style="width:100%">
-					<h3>Fortnite</h3>
-					<p>Fortnite is an online video game developed by Epic Games and released in 2017. It is available in three distinct game mode versions that has different gameplays on it.</p>
-				</div>
-			</div>
-			<!-- END GRID -->
 		</div>
 	</div>
 

@@ -330,3 +330,17 @@ h1 {
   content: none;
 }
 
+
+.card { 
+margin-bottom: 15px;
+}
+
+ .guarantee {
+    color: #f46036;
+    margin-left: 4px;
+    font-weight: 700
+
+}
+.checked {
+  color: #f46036;
+}

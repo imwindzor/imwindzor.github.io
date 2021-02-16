@@ -19,20 +19,25 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-	<header id="myHeader"> 
-		<a href="index.html"><img class="logo" src="img/logog.png" alt="logo" style="width: 20%;">
-		<ul class="myNav">
-			<li><a href="index.html" class="active">Home</a></li>
-			<li><a href="games.html">Games</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="reviews.html">Reviews</a></li>
-		</ul> 
+	<header id="myHeader">
+		<div class="col-12 col-lg"> 
+			<a href="index.html"><img class="logo" src="img/logog.png" alt="logo" style="width: 20%;"></a>
+			<ul class="myNav">
+				<li><a href="index.html" class="active">Home</a></li>
+				<li><a href="games.html">Games</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="reviews.html">Reviews</a></li>
+			</ul> 
+		</div>
 	</header>
 	<br />
 	<br />
 	<!--Carousel-->
 	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner">
+			<div class="carousel-item">
+				<img src="img/gkey.png" class="d-block w-100" alt="GamingKeyboardBanner">
+			</div>
 			<div class="carousel-item active">
 				<img src="img/phone banner.jpg" class="d-block w-100" alt="OnePlusBanner">
 			</div>
@@ -41,6 +46,9 @@
 			</div>
 			<div class="carousel-item">
 				<img src="img/accessories.png" class="d-block w-100" alt="AccessoriesBanner">
+			</div>
+			<div class="carousel-item">
+				<img src="img/gzone.png" class="d-block w-100" alt="taglineBanner">
 			</div>
 		</div>
 		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -70,7 +78,7 @@
 
 		<div class="container-fluid px-0">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed">
-				<div class="container-fluid d-flex"> <a class="navbar-brand" href="index.html" style="color:#2f215c;">GadgetZone</a>
+				<div class="container-fluid d-flex col-4 col-lg"> <a class="navbar-brand" href="index.html" style="color:#2f215c;">GadgetZone</a>
 					<ul class="nav nav-tabs" id="myTab" role="tablist">
 						<li class="nav-item" role="presentation"> <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Smartphones</a> </li>
 						<li class="nav-item" role="presentation"> <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Laptops</a> </li>
@@ -235,111 +243,111 @@
 											<span class="fa fa-star checked"></span>
 											<span class="fa fa-star"></span> 
 											<span class="guarantee">  4 stars review</span></div>
-									</div>
-									<hr>
-									<div class="card-body">
-										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="card"> <img src="img/laptops/hp.png" class="card-img-top">
-									<div class="card-body">
-										<div class="d-flex justify-content-between"> <span class="font-weight-bold">HP SPECTRE X360 14</span> <span class="font-weight-bold">$1,200.00</span> </div>
-										<p class="card-text mb-1 mt-1">Spectre x360 14 isn’t just pretty to look at: it’s also a pleasure to use as a daily work driver.</p>
-										<br />
-										<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star"></span> 
-											<span class="fa fa-star"></span>
-											<span class="guarantee">  3 stars review</span></div>
-									</div>
-									<hr>
-									<div class="card-body">
-										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+										</div>
+										<hr>
+										<div class="card-body">
+											<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="card"> <img src="img/laptops/hp-envy.png" class="card-img-top">
-									<div class="card-body">
-										<div class="d-flex justify-content-between"> <span class="font-weight-bold">HP ENVY X360 (2020)</span> <span class="font-weight-bold">$650</span> </div>
-										<p class="card-text mb-1 mt-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-										<br />
-										<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star"></span> 
-											<span class="fa fa-star"></span>
-											<span class="guarantee">  3 stars review</span></div>
+								<div class="col-md-4">
+									<div class="card"> <img src="img/laptops/hp.png" class="card-img-top">
+										<div class="card-body">
+											<div class="d-flex justify-content-between"> <span class="font-weight-bold">HP SPECTRE X360 14</span> <span class="font-weight-bold">$1,200.00</span> </div>
+											<p class="card-text mb-1 mt-1">Spectre x360 14 isn’t just pretty to look at: it’s also a pleasure to use as a daily work driver.</p>
+											<br />
+											<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star"></span> 
+												<span class="fa fa-star"></span>
+												<span class="guarantee">  3 stars review</span></div>
+											</div>
+											<hr>
+											<div class="card-body">
+												<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+											</div>
+										</div>
 									</div>
-									<hr>
-									<div class="card-body">
-										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="card"> <img src="img/laptops/macbookpro.png" class="card-img-top">
-									<div class="card-body">
-										<div class="d-flex justify-content-between"> <span class="font-weight-bold">MACBOOK PRO 13 (2020)</span> <span class="font-weight-bold">$1,500.00</span> </div>
-										<p class="card-text mb-1 mt-1">The Macbook Pro 13 is more powerful than the Air but more affordable than the 16-inch Pro.</p>
-										<br />
-										<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span> 
-											<span class="fa fa-star "></span>
-											<span class="guarantee">  4 stars review</span></div>
-									</div>
-									<hr>
-									<div class="card-body">
-										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="card"> <img src="img/laptops/dellxps.png" class="card-img-top">
-									<div class="card-body">
-										<div class="d-flex justify-content-between"> <span class="font-weight-bold">DELL XPS 13 2-IN-1</span> <span class="font-weight-bold">$1,100.00</span> </div>
-										<p class="card-text mb-1 mt-1">If you’re looking for a convertible laptop that does just about everything right, we recommend Dell’s latest XPS 13 2-in-1.</p>
-										<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span> 
-											<span class="fa fa-star "></span>
-											<span class="guarantee">  4 stars review</span></div> 
-									</div>
-									<hr>
-									<div class="card-body">
-										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="card"> <img src="img/laptops/asusrog.png" class="card-img-top">
-									<div class="card-body">
-										<div class="d-flex justify-content-between"> <span class="font-weight-bold">ASUS ROG ZEPHYRUS G14</span> <span class="font-weight-bold">$1,350.00</span> </div>
-										<p class="card-text mb-1 mt-1">The Zephyrus G14 is an astonishingly powerful gaming laptop for a low price.</p>
-										<br />
-										<div class="d-flex align-items-center flex-row"><span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span> 
-											<span class="fa fa-star checked"></span>
-											<span class="guarantee">  5 stars review</span></div> 
-									</div>
-									<hr>
-									<div class="card-body">
-										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-						<!--Accessories-->
+									<div class="col-md-4">
+										<div class="card"> <img src="img/laptops/hp-envy.png" class="card-img-top">
+											<div class="card-body">
+												<div class="d-flex justify-content-between"> <span class="font-weight-bold">HP ENVY X360 (2020)</span> <span class="font-weight-bold">$650</span> </div>
+												<p class="card-text mb-1 mt-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+												<br />
+												<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
+													<span class="fa fa-star checked"></span>
+													<span class="fa fa-star checked"></span>
+													<span class="fa fa-star"></span> 
+													<span class="fa fa-star"></span>
+													<span class="guarantee">  3 stars review</span></div>
+												</div>
+												<hr>
+												<div class="card-body">
+													<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="card"> <img src="img/laptops/macbookpro.png" class="card-img-top">
+												<div class="card-body">
+													<div class="d-flex justify-content-between"> <span class="font-weight-bold">MACBOOK PRO 13 (2020)</span> <span class="font-weight-bold">$1,500.00</span> </div>
+													<p class="card-text mb-1 mt-1">The Macbook Pro 13 is more powerful than the Air but more affordable than the 16-inch Pro.</p>
+													<br />
+													<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span> 
+														<span class="fa fa-star "></span>
+														<span class="guarantee">  4 stars review</span></div>
+													</div>
+													<hr>
+													<div class="card-body">
+														<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="card"> <img src="img/laptops/dellxps.png" class="card-img-top">
+													<div class="card-body">
+														<div class="d-flex justify-content-between"> <span class="font-weight-bold">DELL XPS 13 2-IN-1</span> <span class="font-weight-bold">$1,100.00</span> </div>
+														<p class="card-text mb-1 mt-1">If you’re looking for a convertible laptop that does just about everything right, we recommend Dell’s latest XPS 13 2-in-1.</p>
+														<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
+															<span class="fa fa-star checked"></span>
+															<span class="fa fa-star checked"></span>
+															<span class="fa fa-star checked"></span> 
+															<span class="fa fa-star "></span>
+															<span class="guarantee">  4 stars review</span></div> 
+														</div>
+														<hr>
+														<div class="card-body">
+															<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4">
+													<div class="card"> <img src="img/laptops/asusrog.png" class="card-img-top">
+														<div class="card-body">
+															<div class="d-flex justify-content-between"> <span class="font-weight-bold">ASUS ROG ZEPHYRUS G14</span> <span class="font-weight-bold">$1,350.00</span> </div>
+															<p class="card-text mb-1 mt-1">The Zephyrus G14 is an astonishingly powerful gaming laptop for a low price.</p>
+															<br />
+															<div class="d-flex align-items-center flex-row"><span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span> 
+																<span class="fa fa-star checked"></span>
+																<span class="guarantee">  5 stars review</span></div> 
+															</div>
+															<hr>
+															<div class="card-body">
+																<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+												<!--Accessories-->
 						<!-- <div class="d-flex justify-content-between p-3 bg-white mb-3 align-items-center"> <span class="font-weight-bold text-uppercase">Luxury Dining</span>
 							<div> <img src="https://img.icons8.com/windows/100/000000/list.png" width="30" /> <img src="https://img.icons8.com/ios-filled/100/000000/squared-menu.png" width="25" /> </div>
 						</div> -->
@@ -356,137 +364,138 @@
 											<span class="fa fa-star checked"></span> 
 											<span class="fa fa-star "></span>
 											<span class="guarantee">  4 stars review</span></div> 
-									</div>
-									<hr>
-									<div class="card-body">
-										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="card"> <img src="img/acces/beatss.png" class="card-img-top">
-									<div class="card-body">
-										<div class="d-flex justify-content-between"> <span class="font-weight-bold">Beats by Dr. Dre</span> <span class="font-weight-bold">$25.00</span> </div>
-										<p class="card-text mb-1 mt-1">Beats by Dr. Dre - UrBeats 3 Earphones with 3.5mm Plug Comfort Fit Wired Earbuds Sound.</p>
-										<br />
-										<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span> 
-											<span class="fa fa-star "></span>
-											<span class="guarantee">  3 stars review</span></div> 
-									</div>
-									<hr>
-									<div class="card-body">
-										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+										</div>
+										<hr>
+										<div class="card-body">
+											<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="card"> <img src="img/acces/laptopstand.png" class="card-img-top">
-									<div class="card-body">
-										<div class="d-flex justify-content-between"> <span class="font-weight-bold">Foldable Laptop Stand</span> <span class="font-weight-bold">$30.00</span> </div>
-										<p class="card-text mb-1 mt-1">Laptop Stand for MacBook Pro Notebook Stand Foldable Laptop Desk Aluminium Alloy.</p>
-										<br />
-										<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span> 
-											<span class="fa fa-star "></span>
-											<span class="guarantee">  3 stars review</span></div> 
+								<div class="col-md-4">
+									<div class="card"> <img src="img/acces/beatss.png" class="card-img-top">
+										<div class="card-body">
+											<div class="d-flex justify-content-between"> <span class="font-weight-bold">Beats by Dr. Dre</span> <span class="font-weight-bold">$25.00</span> </div>
+											<p class="card-text mb-1 mt-1">Beats by Dr. Dre - UrBeats 3 Earphones with 3.5mm Plug Comfort Fit Wired Earbuds Sound.</p>
+											<br />
+											<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span>
+												<span class="fa fa-star checked"></span> 
+												<span class="fa fa-star "></span>
+												<span class="guarantee">  3 stars review</span></div> 
+											</div>
+											<hr>
+											<div class="card-body">
+												<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+											</div>
+										</div>
 									</div>
-									<hr>
-									<div class="card-body">
-										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="card"> <img src="img/acces/keyboard.png" class="card-img-top">
-									<div class="card-body">
-										<div class="d-flex justify-content-between"> <span class="font-weight-bold">Corsair K100 RGB</span> <span class="font-weight-bold">$200.00</span> </div>
-										<p class="card-text mb-1 mt-1">This is a big keyboard: its enormous footprint still requires some desk clearing before it can be nested comfortably.</p>
-										<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span> 
-											<span class="fa fa-star checked"></span>
-											<span class="guarantee">  5 stars review</span></div> 
-									</div>
-									<hr>
-									<div class="card-body">
-										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="card"> <img src="img/acces/gchair.png" class="card-img-top">
-									<div class="card-body">
-										<div class="d-flex justify-content-between"> <span class="font-weight-bold">Hbada Gaming Chair</span> <span class="font-weight-bold">$190.00</span> </div>
-										<p class="card-text mb-1 mt-1">Hbada Gaming Racing chair is dedicated to make the best gaming chair with large seat area for pro gamers.</p>
+									<div class="col-md-4">
+										<div class="card"> <img src="img/acces/laptopstand.png" class="card-img-top">
+											<div class="card-body">
+												<div class="d-flex justify-content-between"> <span class="font-weight-bold">Foldable Laptop Stand</span> <span class="font-weight-bold">$30.00</span> </div>
+												<p class="card-text mb-1 mt-1">Laptop Stand for MacBook Pro Notebook Stand Foldable Laptop Desk Aluminium Alloy.</p>
+												<br />
+												<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
+													<span class="fa fa-star checked"></span>
+													<span class="fa fa-star checked"></span>
+													<span class="fa fa-star checked"></span> 
+													<span class="fa fa-star "></span>
+													<span class="guarantee">  3 stars review</span></div> 
+												</div>
+												<hr>
+												<div class="card-body">
+													<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="card"> <img src="img/acces/keyboard.png" class="card-img-top">
+												<div class="card-body">
+													<div class="d-flex justify-content-between"> <span class="font-weight-bold">Corsair K100 RGB</span> <span class="font-weight-bold">$200.00</span> </div>
+													<p class="card-text mb-1 mt-1">This is a big keyboard: its enormous footprint still requires some desk clearing before it can be nested comfortably.</p>
+													<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span>
+														<span class="fa fa-star checked"></span> 
+														<span class="fa fa-star checked"></span>
+														<span class="guarantee">  5 stars review</span></div> 
+													</div>
+													<hr>
+													<div class="card-body">
+														<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="card"> <img src="img/acces/gchair.png" class="card-img-top">
+													<div class="card-body">
+														<div class="d-flex justify-content-between"> <span class="font-weight-bold">Hbada Gaming Chair</span> <span class="font-weight-bold">$190.00</span> </div>
+														<p class="card-text mb-1 mt-1">Hbada Gaming Racing chair is dedicated to make the best gaming chair with large seat area for pro gamers.</p>
 
-										<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span> 
-											<span class="fa fa-star"></span>
-											<span class="guarantee">  4 stars review</span></div> 
-									</div>
-									<hr>
-									<div class="card-body">
-										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+														<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
+															<span class="fa fa-star checked"></span>
+															<span class="fa fa-star checked"></span>
+															<span class="fa fa-star checked"></span> 
+															<span class="fa fa-star"></span>
+															<span class="guarantee">  4 stars review</span></div> 
+														</div>
+														<hr>
+														<div class="card-body">
+															<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4">
+													<div class="card"> <img src="img/acces/uport.png" class="card-img-top">
+														<div class="card-body">
+															<div class="d-flex justify-content-between"> <span class="font-weight-bold">Sabrent 4-usb port</span> <span class="font-weight-bold">$15.00</span> </div>
+															<p class="card-text mb-1 mt-1">Instantly Add Four USB 2.0 Ports to all Compatible Device. Easy Setup, Plug-and-Play.</p>
+															<br />
+															<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span>
+																<span class="fa fa-star checked"></span> 
+																<span class="fa fa-star"></span>
+																<span class="guarantee">  4 stars review</span></div> 
+															</div>
+															<hr>
+															<div class="card-body">
+																<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4">
-								<div class="card"> <img src="img/acces/uport.png" class="card-img-top">
-									<div class="card-body">
-										<div class="d-flex justify-content-between"> <span class="font-weight-bold">Sabrent 4-usb port</span> <span class="font-weight-bold">$15.00</span> </div>
-										<p class="card-text mb-1 mt-1">Instantly Add Four USB 2.0 Ports to all Compatible Device. Easy Setup, Plug-and-Play.</p>
-										<br />
-										<div class="d-flex align-items-center flex-row"> <span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star checked"></span> 
-											<span class="fa fa-star"></span>
-											<span class="guarantee">  4 stars review</span></div> 
+							<footer class="footer">
+								<div class="row">
+									<div class="col-sm-6 col-md-4 footer-navigation">
+										<h3><a href="index.html">Gadget<span>Zone</span></a></h3>
+										<p class="links"><a href="index.html">Home</a><strong> | </strong><a href="reviews.html">Reviews</a><strong> | </strong><a href="news.html">News</a><strong> | </strong><a href="specs.html">Specs</a><strong>| </strong><a href="contact.html">Contact</a></p>
+										<p class="company-name">De Guzman, Windzor Dave © 2021</p>
 									</div>
-									<hr>
-									<div class="card-body">
-										<div class="text-right buttons"> <button class="btn btn-outline-dark">specifications</button> <button class="btn btn-dark">reviews</button> </div>
+									<div class="col-sm-6 col-md-4 footer-contacts">
+										<div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+											<p><span class="new-line-span">San Carlos City</span>Pangasinan</p>
+										</div>
+										<div><i class="fa fa-phone footer-contacts-icon"></i>
+											<p class="footer-center-info email text-left"> +639010121972</p>
+										</div>
+										<div><i class="fa fa-envelope footer-contacts-icon"></i>
+											<p> <a href="#" target="_blank">gadgetzone@gmail.com</a></p>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+									<div class="col-md-4 footer-about">
+										<h4>Reach us out</h4>
+										<p>Designed for GadgetZone, engineered to last.</p>
+										<div class="social-links social-icons"><a href="www.facebook.com/GadgetsAndAccessoriesPH"><i class="fa fa-facebook"></i></a><a href="https://github.com/imwindzor"><i class="fa fa-github"></i></a></div>
 									</div>
 								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<footer class="footer-distributed">
-		<div class="footer-left">
-			<a href="index.html" style="text-decoration: none;"><h3>OUT<span>PLAY</span>ED</h3></a>
-			<p class="footer-links">
-				<a href="index.html" class="link-1">Home</a>
-				<a href="games.html">Games</a>			
-				<a href="about.html">About</a>				
-				<a href="reviews.html">Reviews</a>
-			</p>
-			<br />
-
-			<p class="footer-company-name" style="font-weight: bold;">Outplayed | De Guzman &copy; 2020</p>
-		</div>
-		<div class="footer-center">
-			<div>
-				<i class="fa fa-map-marker"></i>
-				<p><span>Governor Pack Road,</span>Baguio City, 2600</p>
-			</div>
-			<div>
-				<i class="fa fa-envelope"></i>
-				<p>outplayedInUC@gmail.com</p>
-			</div>
-		</div>
-	</footer>
-</body>
-</html>
+							</footer>
+						</body>
+						</html>

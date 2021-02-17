@@ -210,12 +210,19 @@ h1 {
 	}
 }
 
-/* Portrait */
+/* Portrait Devices */
  @media only screen and (max-width : 768px) {
  		.logo {
  			display: none;
  		}
 
+ 		.intro_tag h1{ 
+ 			font-size: 30px; 
+ 		}
+
+ 		.intro_tag strong { 
+ 			font-size: 15px; 
+ 		}
     }
 
 
@@ -256,7 +263,6 @@ footer {
     text-align: left;
     font: bold 16px sans-serif;
     padding: 55px 50px;
-    margin-top: 80px;
     bottom: 0;
     color: #fff
 }
@@ -339,8 +345,8 @@ span.new-line-span {
 
 .footer-about p {
     line-height: 20px;
-    color: #92999f;
-    font-size: 13px;
+    color: black;
+    font-size: grey;
     font-weight: normal;
     margin: 0
 }
@@ -355,7 +361,7 @@ div.social-links {
     width: 35px;
     height: 35px;
     cursor: pointer;
-    background-color: black;
+    background-color: #2f215c;
     border-radius: 2px;
     font-size: 20px;
     color: #ffffff;
@@ -369,5 +375,17 @@ div.social-links {
     bottom: 0;
     position: relative;
     background-color:white;
+    width: 100%
 }
 
+
+#press { 
+	background-color:#2f215c ; /* #f46036, #2f215c */
+	text-align: center;
+	width: 100%;
+}
+
+.press-logo { 
+	width: 15%; 
+	margin: 20px 15px 50px;
+}

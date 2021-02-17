@@ -1,144 +1,540 @@
-<!--mobile games-->
-<!DOCTYPE html>
-<html>
+
+<!doctype html>
+<html lang="en">
 <head>
-	<title>Outplayed | Mobile Games</title>
-	<link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/reviews.css">
-	
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--Bootstrap Link-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!--External CSS-->
+  <link rel="stylesheet" type="text/css" href="css/reviews.css">
+
+
+  <title>Product example for Bootstrap</title>
+
 </head>
+
 <body>
-	<header id="myHeader"> 
-		<img class="logo" src="img/logo.jpg" alt="logo">
-		<ul class="nav">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="games.html">Games</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="reviews.html" class="active">Reviews</a></li>
-		</ul>
-	</header>
+  <header id="myHeader">
+    <div class="col-12 col-lg"> 
+      <a href="index.html"><img class="logo" src="img/logog.png" alt="logo" style="width: 20%;"></a>
+      <ul class="myNav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="reviews.html  class="active>Reviews</a></li>
+      </ul> 
+    </div>
+  </header>
 
-	<h1 style=" font-family: 'earth_orbiterregular';">REVIEWS / <span style="color: #B22222">SUMMARY</span></h1>
-	<hr style="width: 60%; border: 1px solid; margin-right: 50%;">
-	
-	<!-- Portfolio Gallery Grid -->
-	<div class="row">
-		<div class="column">
-			<div class="content">
-				<img src="img/revs/a9.png" alt="Asphalt9" style="width:100%">
-				<h3>Asphalt 9: Legends	</h3>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star"></span>
-				<p>Asphalt 9: Legends is undeniably a pleasant affair that is used as a model for the new mobile apps rightly. It's a total stunner, boasting the effects of next-level particles, lighting and natural environment. </p>
-			</div>
-		</div>
-		<div class="column">
-			<div class="content">
-				<img src="img/revs/gc.png" alt="GrandChase" style="width:100%">
-				<h3>GrandChase DC</h3>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star"></span>
-				<p>Dimensional Chaser is a great sequel to a great game, which managed to simultaneously adapt the gameplay elements to the mobile version and to keep everything which made the original game so good.</p>
-			</div>
-		</div>
-		<div class="column">
-			<div class="content">
-				<img src="img/revs/cod.jpg" alt="Call of Duty Mobile" style="width:100%">
-				<h3>Call of Duty Mobile</h3>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star"></span>
-				<p>Call of Duty: Mobile has the same flow and cadence of combat as its counterparts on consoles and the PC. The 5v5 matches are brief, however, typically lasting a few minutes due to the tighter kill and point tallies. This is a game designed for shorter sessions.</p>
-			</div>
-		</div>
-		<div class="column">
-			<div class="content">
-				<img src="img/revs/ml.jpg" alt="MobileLegends" style="width:100%">
-				<h3>Mobile Legends</h3>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star"></span>
-				<span class="fa fa-star"></span>
-				<p>"I have been playing for three years now and for some reason every time i play it just seems 
-				not only do i get bad team mates but the lag is the worst in this game especially when it comes being epic rank on rank mode. I will do good for bit then, lag happens and throws me off. I have really good internet too." (Chris, 2019)</p>
-			</div>
-		</div>
-		<div class="column">
-			<div class="content">
-				<img src="img/revs/coc.jpg" alt="ClashOfClans" style="width:100%">
-				<h3>Clash of Clans</h3>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<p>The game is set in a fantasy-themed persistent world where the player is a chief of a village. Clash of Clans tasks players to build their own town using the resources gained from attacking other players through the game's fighting features.</p>
-			</div>
-		</div>
-		<div class="column">
-			<div class="content">
-				<img src="img/revs/fnight.jpg" alt="Fortnite" style="width:100%">
-				<h3>Fortnite</h3>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star"></span>
-				<p>A global phenomenon built on a keen understanding of what makes games such great escapism, seemingly with no limit to Epic’s imagination. The only bad thing here is it has only one map and it's hard to keep up in the game.</p>
-			</div>
-		</div>
-		<div class="column">
-			<div class="content">
-				<img src="img/revs/nba.jpg" alt="NBA2k" style="width:100%">
-				<h3>NBA 2K Series</h3>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<p>The size of the game has been a gift and a curse for the series in the past, and that will be the case again this year. That doesn’t mean NBA 2K20 is bad. It just means the imperfections mostly come from pushing the envelope. </p>
-			</div>
-		</div>
-		<div class="column">
-			<div class="content">
-				<img src="img/revs/aov.jpg" alt="ArenaOfValor" style="width:100%">
-				<h3>Arena of Valor</h3>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star checked"></span>
-				<span class="fa fa-star"></span>
-				<p>Arena of Valor is best described as "League of Legends mobile," with many similar character designs. The one thing users believe could have been done better is Guild Management.</p>
-			</div>
-		</div>
-		
-		<!-- END GRID -->
-	</div>
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 font-weight-normal">Product Reviews</h1>
+      <p class="lead font-weight-normal">GadgetZone provides you the most transparent reviews towards any product.</p>
+      <a class="btn btn-outline-secondary" href="index.html">Only here in GadgetZone</a>
+    </div>
+    <div class="product-device box-shadow d-none d-md-block"></div>
+    <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+  </div>
 
-	<div class="content">
-		<img src="img/revs/pubg.jpg" alt="PUBG" style="width:100%">
-		<h3>PlayerUnknown's Battlegrounds Mobile</h3>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<p style="margin-left: 20%; margin-right: 20%;">PUBG Mobile is fun, but it’s not as tense as its PC counterpart. The stakes feel lower, and it misses out on a lot of what makes the PC version of the game so special. In essence, it feels a little hollow.</p>
-		<p style="margin-left: 10%; margin-right: 10%; line-height: 2;">Regular gameplay ran fine most of the time. There were almost always serious frame rate drops when parachuting down to the island, but that’s not totally shocking. </p>
-	</div>
+<!--PRODUCTS-->
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+      <div class="my-3 py-3">
+        <h2 class="display-5">OnePlus 7</h2>
+        <p class="lead">6.41 inches, Dual SIM, 8GB, Dual Main Camera 48MP+5MP, GSM Unlocked International Model,</p>
+      </div>
+      <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+        <br />
+        
+        <!--Carousel-->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img src="reviews/oneplus/1.png" class="d-block w-100" alt="GamingKeyboardBanner">
+            </div>
+            <div class="carousel-item active">
+              <img src="reviews/oneplus/2.png" class="d-block w-100" alt="OnePlusBanner">
+            </div>
+            <div class="carousel-item">
+              <img src="reviews/oneplus/3.png" class="d-block w-100" alt="GamingLaptopBanner">
+            </div>
+            <div class="carousel-item">
+              <img src="reviews/oneplus/4.png" class="d-block w-100" alt="AccessoriesBanner">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!--End of carousel-->
 
-	<!-- END MAIN -->
+      </div>
+    </div>
+
+  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div class="my-3 p-3">
+      <h2 class="display-5">Xiaomi Mi 11 Ultra</h2>
+      <p class="lead">And an even wittier subheading.</p>
+    </div>
+    <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+      
+       <!--Carousel-->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img src="reviews/oneplus/1.png" class="d-block w-100" alt="GamingKeyboardBanner">
+            </div>
+            <div class="carousel-item active">
+              <img src="reviews/oneplus/2.png" class="d-block w-100" alt="OnePlusBanner">
+            </div>
+            <div class="carousel-item">
+              <img src="reviews/oneplus/3.png" class="d-block w-100" alt="GamingLaptopBanner">
+            </div>
+            <div class="carousel-item">
+              <img src="reviews/oneplus/4.png" class="d-block w-100" alt="AccessoriesBanner">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!--End of carousel-->
+
+    </div>
+  </div>
 </div>
 
-</body>
-</html>
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div class="my-3 p-3">
+      <h2 class="display-5">Sony Xperia 1 II</h2>
+      <p class="lead">Triple camera system, fast autofocus, Eye AF, 4K OLED display, Dolby Atmos audio technology</p>
+    </div>
+    <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+      <br />
+      <!--Carousel-->
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="reviews/sony/1.png" class="d-block w-100" alt="GamingKeyboardBanner">
+          </div>
+          <div class="carousel-item active">
+            <img src="reviews/sony/2.png" class="d-block w-100" alt="OnePlusBanner">
+          </div>
+          <div class="carousel-item">
+            <img src="reviews/sony/3.png" class="d-block w-100" alt="GamingLaptopBanner">
+          </div>
+          <div class="carousel-item">
+            <img src="reviews/sony/4.png" class="d-block w-100" alt="AccessoriesBanner">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!--End of carousel-->
+    </div>
+  </div>
+  
+
+    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+    <div class="my-3 py-3">
+      <h2 class="display-5">Xiaomi Poco M3</h2>
+      <p class="lead">Snapdragon 662, 6000mAh Battery, Dual SIM GSM Unlocked Global 4G LTE.</p>
+    </div>
+    <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+      <br />
+      <!--Carousel-->
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="reviews/xiaomi/1.png" class="d-block w-100" alt="GamingKeyboardBanner">
+          </div>
+          <div class="carousel-item active">
+            <img src="reviews/xiaomi/2.png" class="d-block w-100" alt="OnePlusBanner">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!--End of carousel-->
+    </div>
+  </div>
+</div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 p-3">
+        <h2 class="display-5">Apple Iphone 12 Pro Max</h2>
+        <p class="lead">Pro camera system with 12MP Ultra Wide, Wide and Telephoto cameras; 5x optical zoom range; Night mode, Deep Fusion, Smart HDR 3</p>
+      </div>
+      <div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+        <br />
+        <!--Carousel-->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img src="reviews/apple/1.png" class="d-block w-100" alt="GamingKeyboardBanner">
+            </div>
+            <div class="carousel-item active">
+              <img src="reviews/apple/2.png" class="d-block w-100" alt="OnePlusBanner">
+            </div>
+            <div class="carousel-item">
+              <img src="reviews/apple/3.png" class="d-block w-100" alt="GamingLaptopBanner">
+            </div>
+            <div class="carousel-item">
+              <img src="reviews/apple/4.png" class="d-block w-100" alt="AccessoriesBanner">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!--End of carousel-->
+      </div>
+    </div>
+
+
+<div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+  <div class="my-3 py-3">
+    <h2 class="display-5">One Plus 8 Pro</h2>
+    <p class="lead">5G Unlocked Android Smartphone U.S Version, 12GB RAM+256GB Storage, 120Hz Fluid Display,Quad Camera, Wireless Charge, with Alexa Built-in.</p>
+  </div>
+  <div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+    <br />
+    <!--Carousel-->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img src="reviews/one8/1.png" class="d-block w-100" alt="GamingKeyboardBanner">
+        </div>
+        <div class="carousel-item active">
+          <img src="reviews/one8/2.png" class="d-block w-100" alt="OnePlusBanner">
+        </div>
+        <div class="carousel-item">
+          <img src="reviews/one8/3.png" class="d-block w-100" alt="GamingLaptopBanner">
+        </div>
+        <div class="carousel-item">
+          <img src="reviews/one8/4.png" class="d-block w-100" alt="AccessoriesBanner">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!--End of carousel-->
+  </div>
+</div>
+</div>
+
+<!--LAPTOPS-->
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div class="my-3 p-3">
+      <h2 class="display-5">Apple MacBook Air</h2>
+      <p class="lead">13-inch Retina Display, 8GB RAM, 256GB SSD Storage</p>
+    </div>
+    <div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+      <br />
+      <!--Carousel-->
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="reviews/macbookAir/1.png" class="d-block w-100" alt="GamingKeyboardBanner">
+          </div>
+          <div class="carousel-item active">
+            <img src="reviews/macbookAir/2.png" class="d-block w-100" alt="OnePlusBanner">
+          </div>
+          <div class="carousel-item">
+            <img src="reviews/macbookAir/3.png" class="d-block w-100" alt="GamingLaptopBanner">
+          </div>
+          <div class="carousel-item">
+            <img src="reviews/macbookAir/4.png" class="d-block w-100" alt="AccessoriesBanner">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!--End of carousel-->
+    </div>
+  </div>
+<div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+  <div class="my-3 py-3">
+    <h2 class="display-5">HP SPECTRE X360 14</h2>
+    <p class="lead">2-in-1 Laptop PC - 4K UHD Touch Screen - Intel Core i7 - 512GB SSD - 16GB RAM - Windows 10 Home.</p>
+  </div>
+  <div class="bg-white box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+    <br />
+    <!--Carousel-->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img src="reviews/spectre/1.png" class="d-block w-100" alt="GamingKeyboardBanner">
+        </div>
+        <div class="carousel-item active">
+          <img src="reviews/spectre/2.png" class="d-block w-100" alt="OnePlusBanner">
+        </div>
+        <div class="carousel-item">
+          <img src="reviews/spectre/3.png" class="d-block w-100" alt="GamingLaptopBanner">
+        </div>
+        <div class="carousel-item">
+          <img src="reviews/spectre/4.png" class="d-block w-100" alt="AccessoriesBanner">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!--End of carousel-->
+  </div>
+</div>
+</div>
+
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+    <div class="my-3 py-3">
+      <h2 class="display-5">HP ENVY X360</h2>
+      <p class="lead">5.6" Full HD Touchscreen, AMD Ryzen 5 4500U Processor up to 4.0GHz, 8GB Memory, 256GB PCIe SSD, Backlit Keyboard</p>
+    </div>
+    <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+      <br />
+      <!--Carousel-->
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="reviews/envy/1.png" class="d-block w-100" alt="GamingKeyboardBanner">
+          </div>
+          <div class="carousel-item active">
+            <img src="reviews/envy/2.png" class="d-block w-100" alt="OnePlusBanner">
+          </div>
+          <div class="carousel-item">
+            <img src="reviews/envy/3.png" class="d-block w-100" alt="GamingLaptopBanner">
+          </div>
+          <div class="carousel-item">
+            <img src="reviews/envy/4.png" class="d-block w-100" alt="AccessoriesBanner">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!--End of carousel-->
+    </div>
+  </div>
+<div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+  <div class="my-3 p-3">
+    <h2 class="display-5">Apple MacBook Pro</h2>
+    <p class="lead">13-inch, 8GB RAM, 256GB SSD Storage</p>
+  </div>
+  <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+    <br />
+    <!--Carousel-->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img src="reviews/applePro/1.png" class="d-block w-100" alt="GamingKeyboardBanner">
+        </div>
+        <div class="carousel-item active">
+          <img src="reviews/applePro/2.png" class="d-block w-100" alt="OnePlusBanner">
+        </div>
+        <div class="carousel-item">
+          <img src="reviews/applePro/3.png" class="d-block w-100" alt="GamingLaptopBanner">
+        </div>
+        <div class="carousel-item">
+          <img src="reviews/applePro/4.png" class="d-block w-100" alt="AccessoriesBanner">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!--End of carousel-->
+  </div>
+</div>
+</div>
+
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+    <div class="my-3 py-3">
+      <h2 class="display-5">DELL XPS 13 2-IN-1</h2>
+      <p class="lead">13.3" FHD Touch - i7-7Y75 - 8GB Ram - 256GB SSD</p>
+    </div>
+    <div class="bg-light box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+      <br />
+      <!--Carousel-->
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="reviews/xps/1.png" class="d-block w-100" alt="GamingKeyboardBanner">
+          </div>
+          <div class="carousel-item active">
+            <img src="reviews/xps/2.png" class="d-block w-100" alt="OnePlusBanner">
+          </div>
+          <div class="carousel-item">
+            <img src="reviews/xps/3.png" class="d-block w-100" alt="GamingLaptopBanner">
+          </div>
+          <div class="carousel-item">
+            <img src="reviews/xps/4.png" class="d-block w-100" alt="AccessoriesBanner">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!--End of carousel-->
+    </div>
+  </div>
+<div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+  <div class="my-3 p-3">
+    <h2 class="display-5">ASUS ROG ZEPHYRUS G14</h2>
+    <p class="lead">AMD Ryzen 9 - 16GB Memory - NVIDIA GeForce RTX 2060 - 1TB SSD</p>
+  </div>
+  <div class="bg-dark box-shadow mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+    <br />
+    <!--Carousel-->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img src="reviews/rog/1.png" class="d-block w-100" alt="GamingKeyboardBanner">
+        </div>
+        <div class="carousel-item active">
+          <img src="reviews/rog/2.png" class="d-block w-100" alt="OnePlusBanner">
+        </div>
+        <div class="carousel-item">
+          <img src="reviews/rog/3.png" class="d-block w-100" alt="GamingLaptopBanner">
+        </div>
+        <div class="carousel-item">
+          <img src="reviews/rog/4.png" class="d-block w-100" alt="AccessoriesBanner">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!--End of carousel-->
+  </div>
+</div>
+</div>
+
+
+<footer class="footer">
+  <div class="row">
+    <div class="col-sm-6 col-md-4 footer-navigation">
+      <h3><a href="index.html">Gadget<span>Zone</span></a></h3>
+      <p class="links"><a href="index.html">Home</a><strong> | </strong><a href="reviews.html">Reviews</a><strong> | </strong><a href="news.html">News</a><strong> | </strong><a href="specs.html">Specs</a><strong>| </strong><a href="contact.html">Contact</a></p>
+      <p class="company-name">De Guzman, Windzor Dave © 2021</p>
+    </div>
+    <div class="col-sm-6 col-md-4 footer-contacts">
+      <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+        <p><span class="new-line-span">San Carlos City</span>Pangasinan</p>
+      </div>
+      <div><i class="fa fa-phone footer-contacts-icon"></i>
+        <p class="footer-center-info email text-left"> +639010121972</p>
+      </div>
+      <div><i class="fa fa-envelope footer-contacts-icon"></i>
+        <p> <a href="https://www.facebook.com/GadgetsAndAccessoriesPH" target="_blank" style="color: black;">gadgetzone@gmail.com</a></p>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="col-md-4 footer-about">
+      <h3>Contact us!</h3>
+      <p>Designed for GadgetZone, engineered to last.</p>
+      <div class="social-links social-icons"><a href="https://www.facebook.com/GadgetsAndAccessoriesPH" target="_blank"><i class="fa fa-facebook"></i></a><a href="https://github.com/imwindzor" target="_blank"><i class="fa fa-github"></i></a></div>
+    </div>
+  </div>
+</footer>
+
+    <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+      <script src="../../assets/js/vendor/popper.min.js"></script>
+      <script src="../../dist/js/bootstrap.min.js"></script>
+      <script src="../../assets/js/vendor/holder.min.js"></script>
+      <script>
+        Holder.addTheme('thumb', {
+          bg: '#55595c',
+          fg: '#eceeef',
+          text: 'Thumbnail'
+        });
+      </script>
+    </body>
+    </html>

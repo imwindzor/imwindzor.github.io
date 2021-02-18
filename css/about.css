@@ -12,7 +12,7 @@ header {
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: 700;
-	padding-bottom: 3%;
+	padding-bottom: 4%;
 	margin: 0;
 }
 
@@ -100,13 +100,13 @@ header {
 	width: 100%;
 }
 
-#slogan {
+#cta {
 	background-color: #f46036;
 	text-align: center;
 	padding: 5% 8%;
 }
 
-.slogan-text { 
+.cta-text { 
 	color: white; 
 	font-family: 'Montserrat', sans-serif; 
 	font-weight: 900;
@@ -254,6 +254,15 @@ div.social-links {
 }
 
 
+/* Portrait Devices */
+ @media only screen and (max-width : 768px) {
+ 		.cta-text {
+ 			font-size: 1.75rem;
+ 			padding: 0;
+ 		}
+ 	}	
+
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800');
 
 h1{
@@ -305,12 +314,19 @@ button{
 }
 .bg {
 	background-color: #2f215c;
-
 }
 
 .mt-4 {
 	margin-top: 0 !important;
 }
+
+/* Portrait Devices */
+ @media only screen and (max-width : 768px) {
+ 		.logo {
+ 			display: none;
+ 		}
+
+
 @media(max-width: 992px){
 	.btn{
 		width: 20%

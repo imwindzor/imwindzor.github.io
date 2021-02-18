@@ -302,6 +302,12 @@ div.social-links {
     width: 100%
 }
 
+/* Portrait Devices */
+ @media only screen and (max-width : 768px) {
+ 		.logo {
+ 			display:none;
+ 		}
+
 
 
 

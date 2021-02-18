@@ -1,48 +1,104 @@
-<!--mobile games-->
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Outplayed | Mobile Games</title>
+	<title>GadgetZone</title>
+	<meta name="author" content="Windzor Dave De Guzman">
+	<meta name="description" content="Gadgets Accessories Reviews">
+	<meta name="description" content="HTML, CSS">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!--google fonts-->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!--Bootstrap Links-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<!--External CSS-->
 	<link rel="stylesheet" type="text/css" href="css/about.css">
-	
 </head>
+
 <body>
-	<header id="myHeader"> 
-		<img class="logo" src="img/logo.jpg" alt="logo">
-		<ul class="nav">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="games.html">Games</a></li>
-			<li><a href="about.html" class="active">About</a></li>
-			<li><a href="reviews.html">Reviews</a></li>
-		</ul>
+	<header id="myHeader">
+		<div class="col-12 col-lg"> 
+			<a href="index.html"><img class="logo" src="img/logog.png" alt="logo" style="width: 20%;"></a>
+			<ul class="myNav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="about.html"  class="active">About</a></li>
+				<li><a href="reviews.html">Reviews</a></li>
+			</ul> 
+		</div>
 	</header>
 
-	<img src="img/play.jpg" alt="mainlogo" width="99.8%" />
+	<section>
+		<img src="img/about.png" alt="about_us_background" class="img-fluid">
+	</section>
 
-	<br />
-	<br />
-	<br />
-	
-	<h1 style="margin-left: 2%; font-family: 'earth_orbiterregular'; font-size: 45px;">ABOUT</h1>
-	<div>
-	<img src="img/about.jpg" alt="facts_abt_phone" class="abt_pic" />
+	<div class="row intro">
+		<div class="col-lg-6 para-1">
+			<h1>What about GadgetZone?</h1>
+			<br />
+
+			<p>Here in GadgetZone, we showcase different electronic products such as smartphones, laptops and its accompanied accessories. We make sure that every product we showcase is authentic and reviewed by experts. GadgetZone is also an affiliate website of Amazon and is partnered by big companies. Any data and information that is displayed in this website is 100% legit and updated.</p>
+		</div>
+		<div class="col-lg-6">
+			<img src="img/laptoppexels.jpg" class="img-laptop" alt="desk">
+		</div>
 	</div>
 
-	<hr style="width: 60%; border: 1px solid; margin-right: 50%;">
-	<section>
-		<p>Have  you not notice that not many games are no longer played mostly in their personal computers? This is because of the rise of mobile phones. Because of its portability, ease of play, gamers are now able to play with their mobile phones anytime and anywhere. Plus, even cheap cellphones can play games. 
-			<br />
-			<br />
-			<br />
-			OUTPLAYED was invented this 2020 due to the inevitable rise of mobile games across the globe. OUTPLAYED wants to make it easy for you to get information, updates and latest news on popular mobile games that the gamers wants. It also features popular and most played games online and with ratings and reviews.
-		</p>
+	<section id="slogan">
+		<h3 class="slogan-text">Creating a business with authentic integrity</h3>
+		<p style="padding: 2% 10%; line-height: 2; font-size: 1.4rem; color:rgba(255,255,255,0.5);">To provide you the most accurate details about the product, GadgetZone is partnered by big companies including GSMARENA, Techradar, and PCMag. </p>
+		<!--PARTNERS-->
+		<section id="press">
+			<img class="press-logo" src="img/amazon.png" alt="tnw-logo">
+			<img class="press-logo" src="img/techradar.png" alt="tc-logo">
+			<img class="press-logo" src="img/pcmag.png" alt="biz-insider-logo">
+			<img class="press-logo" src="img/gsmarena(1).png" alt="mashable-logo" style="width: 20%;">
+		</section>
 	</section>
 
 
-	
 
-</body>
-</html>
+	<section class="bg text-center p-5 mt-4">
+		<div class="container p-3">
+			<h3 class="text-white keep">KEEP IN TOUCH WITH US</h3>
+			<form action="#" method="Post">
+				<input type="text" name="text" placeholder="Enter Your Email Address">
+				<button type="button" class="btn btn-light">Subscribe <i class="fa fa-envelope"></i></button>
+			</form>
+		</div>
+	</section>
 
+	<footer class="footer">
+		<div class="row">
+			<div class="col-sm-6 col-md-4 footer-navigation">
+				<h3><a href="index.html">Gadget<span>Zone</span></a></h3>
+				<p class="links"><a href="index.html">Home</a><strong> | </strong><a href="reviews.html">Reviews</a><strong> | </strong><a href="news.html">News</a><strong> | </strong><a href="specs.html">Specs</a><strong>| </strong><a href="contact.html">Contact</a></p>
+				<p class="company-name">De Guzman, Windzor Dave © 2021</p>
+			</div>
+			<div class="col-sm-6 col-md-4 footer-contacts">
+				<div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+					<p><span class="new-line-span">San Carlos City</span>Pangasinan</p>
+				</div>
+				<div><i class="fa fa-phone footer-contacts-icon"></i>
+					<p class="footer-center-info email text-left"> +639010121972</p>
+				</div>
+				<div><i class="fa fa-envelope footer-contacts-icon"></i>
+					<p> <a href="https://www.facebook.com/GadgetsAndAccessoriesPH" target="_blank" style="color: black;">gadgetzone@gmail.com</a></p>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="col-md-4 footer-about">
+				<h3>Contact us!</h3>
+				<p>Designed for GadgetZone, engineered to last.</p>
+				<div class="social-links social-icons"><a href="https://www.facebook.com/GadgetsAndAccessoriesPH" target="_blank"><i class="fa fa-facebook"></i></a><a href="https://github.com/imwindzor" target="_blank"><i class="fa fa-github"></i></a></div>
+			</div>
+		</div>
+	</footer>
